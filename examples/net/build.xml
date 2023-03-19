@@ -45,7 +45,7 @@
 <!--     message="You must install the Javassist library from http://sourceforge.net/projects/jboss/"/>-->
     <echo message="Building 'net'"/>
     <javac
-            classpath="${basedir}/..;C:\Users\agalakti\Documents\books\thinking-in-java\TIJ4-code\lib"
+            classpath="${basedir}/..;D:\dbg\TIJ4-code-as-ant\lib"
             debug="true"
             srcdir="${basedir}">
       <compilerarg value="-Xmaxerrs"/>

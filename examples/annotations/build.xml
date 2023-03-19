@@ -47,7 +47,7 @@
     <!--    <fail message="J2SE5 required" unless="version1.5"/>-->
     <echo message="Building 'annotations'"/>
     <javac
-            classpath="${basedir}/..;C:\Users\agalakti\Documents\books\thinking-in-java\TIJ4-code\lib"
+            classpath="${basedir}/..;D:\dbg\TIJ4-code-as-ant\lib"
             debug="true"
             srcdir="${basedir}">
       <compilerarg value="-Xmaxerrs"/>
